@@ -1,0 +1,11 @@
+<ul class="personajes">
+    <li *ngFor="let personaje of personajes">
+        <h3 class= "nombre">
+            {{personaje.nombre}}
+        </h3>
+        <p class="descripcion"> 
+            {{personaje.descripcion}}
+        </p>
+        <img src="{{personaje.img}}" alt="{{personaje.nombre}}">
+    </li>
+</ul>
